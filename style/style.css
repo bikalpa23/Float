@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    background: url(../images/gradient.jpg);
+}
+
+.inner-body {
+    padding: 40px;
+}
+
+/* Headings */
+.text {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+/* paragraph */
+.para {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9c3e3e;
+    padding-bottom: 20px;
+}
+
+.inner {
+    height: calc(100vh - 400px);
+    width: calc(100% - 100px);
+    background-color: #fff;
+    margin: 20px auto;
+    display: block;
+    margin-top: 68px;
+    border-radius: 80px;
+    padding: 80px;
+    background: url(../images/gradient.jpg);
+}
+
+.button {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: #fc5e2e;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #f56f6f;
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-bar {
+    float: right;
+    padding: auto;
+    color: #fff;
+}
+
+
+.nav-list-container {
+    list-style-type: none;
+}
+
+
+.nav-list {
+    display: inline-block;
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+.nav-list:hover {
+    transform: scale(1.1);
+    text-shadow: none;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-link-language {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background: wheat;
+    width: 80%;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.nav-link-language:hover .sub-menu {
+    display: block;
+}
+
+.sub-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sub-links {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sub-links:hover {
+    background-color: #fc5e2e;
+}
+
+.left-content {
+    float: left;
+    width: 50%;
+    padding: 80px;
+}
+
+.right-content {
+    float: right;
+    width: 50%;
+    padding: 50px;
+}
+
+.background {
+    background: url(../images/gradient.jpg);
+    max-width: 100%;
+    height: 120%;
+    margin: auto;
+    padding-left: 120px;
+
+}
+
+.container {
+    background: url(../images/gradient.jpg);
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.image-label {
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.food-img {
+    width: 300px;
+
+}
+
+.food-img-cont:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 12px 100px 0px rgb(245, 222, 179);
+}
+
+
+.food-img-container {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+
+.food-image-container-header {
+    margin: 10px;
+    padding-left: 200px;
+    margin-top: 100px;
+
+}
+
+
+
+.list {
+    list-style: none;
+}
+
+.footer {
+    margin: 60px;
+    padding: 50px 0;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-header {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    float: left;
+    margin: 20px;
+
+}
+
+.footer-right {
+    float: right;
+    margin: 20px;
+}
+
+.footer-col-company {
+    float: left;
+}
+
+.footer-col-help {
+    float: right;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-col-shop {
+    float: left;
+}
+
+.footer-col-follow {
+    float: right;
+}
+
+.footer-links {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffbe0a;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-links:hover {
+    color: #fc5e2e;
+    padding-left: 12px;
+}
+
+
+.footer-links {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1px;
+    text-decoration: none;
+}
+
+.list {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+
+.list-link {
+    text-decoration: none;
+    color: #9c3e3e;
+}
+
+.list-link:hover {
+    background-color: #fc5e2e;
+}
+
+.footer-header:hover {
+    color: #fc5e2e;
+    cursor: pointer;
+}

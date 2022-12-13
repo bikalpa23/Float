@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient();
+    padding: auto;
+    margin: 150px;
+    background: url(../images/gradient.jpg)
+}
+
+
+.login-form {
+    background: #fff;
+    width: 500px;
+    margin: 12px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    padding: 18px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.content {
+    padding: 24px;
+    text-align: center;
+}
+
+.input {
+    font-size: 18px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ede7e7;
+    transition: all .3s;
+}
+
+.input-field {
+    padding: 10px;
+}
+
+.action {
+    display: flex;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    margin: 5px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #e8e9ec;
+    color: #777;
+    border-radius: 10px;
+    letter-spacing: 0.2px;
+    transition: all .3s;
+}
+
+.button:hover {
+    background: #fc5e2e;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    margin-top: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.fgt-pwd {
+    padding: 15px;
+    margin: 2px;
+}
